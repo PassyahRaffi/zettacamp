@@ -1,0 +1,55 @@
+@media only screen and (max-width: 428px) {
+  body {
+    height: 100vh;
+  }
+  
+  /* MAIN */
+  .subjudul h1 {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  
+  .deskription p {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  
+  /* BACKGROUN ABOVE */
+  .background-above {
+    height: 180%;
+  }
+  
+  /* CARD */
+  .container-card {
+    display: block;
+    justify-content: center;
+  }
+  
+  .card-content {
+    margin: 0 50% 30px 50%;
+    width: 50vw;
+    height: 55vh;
+  }
+  
+  .card-content h2 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .card-content h3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* BUTTON */
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* FOOTER */
+  footer {
+    height: 30%;
+    padding: 5vh 20vw 35vh 20vw;
+  }
+}
