@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  font-family: 'Forum', cursive;
+}
+
+body {
+  background-color: rgb(13, 0, 80);
+  height: 100vh;
+}
+
+/* MAIN */
+.subjudul h1 {
+  font-size: 50px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.deskription p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.deskription {
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+/* BACKGROUN ABOVE */
+.background-above {
+  height: 20%;
+}
+
+/* CARD */
+.container-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-content {
+  margin: 0 0 0 25px;
+  width: 20vw;
+  height: 46vh;
+  box-shadow: 0px 10px 30px 0.5px rgb(13, 0, 80);
+  background-color: white;
+  color: black;
+}
+
+.card-content h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-content h3 {
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+  color: #fff;
+  background-color: rgb(56, 56, 80);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.card-main-top {
+  display: flex;
+  background-color: white;
+  padding: 20px 30px;
+}
+
+.value-top {
+  display: flex;
+  padding: 0 0 25px 0;
+  width: 30vw;
+  height: 5vh;
+  justify-content: center;
+  height: 65px;
+  border-bottom: 2px solid rgb(117, 110, 110);
+}
+
+.value {
+  display: flex;
+}
+
+.value-top .value h4 {
+  margin: 0px 8px 0 0;
+  font-size: 25px;
+  color: gray;
+}
+
+.value-top .value h3 {
+  font-size: 20px;
+  margin: 0px 0px 0px 8px;
+  padding-top: 45px;
+  color: gray;
+}
+
+.value-top .value h1 {
+  font-size: 70px;
+}
+
+.card-main-buttom {
+  margin: 30px;
+}
+
+.card-main-buttom h3 {
+  font-size: 20px;
+}
+
+/* BUTTON */
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  position: absolute;
+  font-weight: bold;
+  border: 0;
+  padding: 10px 50px;
+  background-color: rgb(0, 162, 255);
+  text-transform: uppercase;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(84, 99, 150);
+}
+
+/* FOOTER */
+footer {
+  height: 22%;
+  padding: 0 20vw 0vw 20vw;
+  background-color: white;
+  padding-top: 35vh;
+}
+
+footer .footer {
+  /* margin: 50px; */
+  color: rgb(83, 82, 82);
+}
+
+footer .title-footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer .content-footer {
+  display: flex;
+}
+
+footer .content-footer .side-left {
+  margin-right: 15px;
+}
+footer .content-footer .side-right {
+  margin-left: 15px;
+}
+
+.footer h3 {
+  font-size: 18px;
+}
+
+.footer p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.footer h5 {
+  margin-top: 25px;
+  
+}
+
+
+/* RESPONSIVE SCREEN */
+/* PENDING... */
